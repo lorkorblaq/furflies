@@ -29,4 +29,5 @@ except Exception as e:
     print(f"An error occurred: {e}")
 
 # Access the desired database
-db_clinical = client.project_cluster
+# db_clinical = client['project-cluster']
+db_clinical = client['clinicalx']
